@@ -1,0 +1,72 @@
+# ============================================================
+# .gitignore — ML Project (Titanic)
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data files (large raw datasets — download separately from Kaggle)
+data/raw/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.zip
+*.tar.gz
+
+# Keep outputs folder but ignore large files
+outputs/*.pkl
+outputs/*.joblib
+outputs/*.h5
+
+# Trained Model files (can be large)
+*.pkl
+*.joblib
+*.h5
+*.model
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
